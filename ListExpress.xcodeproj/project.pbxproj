@@ -13,6 +13,8 @@
 		E3590007178224760061EF0E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3590006178224760061EF0E /* Default-568h@2x.png */; };
 		E359000A178224760061EF0E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3590008178224760061EF0E /* MainStoryboard.storyboard */; };
 		E359000D178224760061EF0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E359000C178224760061EF0E /* ViewController.m */; };
+		E3590015178224AF0061EF0E /* TableControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3590014178224AF0061EF0E /* TableControllerViewController.m */; };
+		E3590019178224F50061EF0E /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3590018178224F50061EF0E /* MessageCell.m */; };
 		E359FFF1178224760061EF0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E359FFF0178224760061EF0E /* UIKit.framework */; };
 		E359FFF3178224760061EF0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E359FFF2178224760061EF0E /* Foundation.framework */; };
 		E359FFF5178224760061EF0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E359FFF4178224760061EF0E /* CoreGraphics.framework */; };
@@ -28,6 +30,10 @@
 		E3590009178224760061EF0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E359000B178224760061EF0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E359000C178224760061EF0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3590013178224AF0061EF0E /* TableControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableControllerViewController.h; sourceTree = "<group>"; };
+		E3590014178224AF0061EF0E /* TableControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableControllerViewController.m; sourceTree = "<group>"; };
+		E3590017178224F50061EF0E /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		E3590018178224F50061EF0E /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
 		E359FFED178224760061EF0E /* ListExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E359FFF0178224760061EF0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E359FFF2178224760061EF0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,9 +92,13 @@
 				E359FFFF178224760061EF0E /* AppDelegate.h */,
 				E3590000178224760061EF0E /* AppDelegate.m */,
 				E3590008178224760061EF0E /* MainStoryboard.storyboard */,
+				E3590013178224AF0061EF0E /* TableControllerViewController.h */,
+				E3590014178224AF0061EF0E /* TableControllerViewController.m */,
 				E359000B178224760061EF0E /* ViewController.h */,
 				E359000C178224760061EF0E /* ViewController.m */,
 				E359FFF7178224760061EF0E /* Supporting Files */,
+				E3590017178224F50061EF0E /* MessageCell.h */,
+				E3590018178224F50061EF0E /* MessageCell.m */,
 			);
 			path = ListExpress;
 			sourceTree = "<group>";
@@ -176,6 +186,8 @@
 				E359FFFD178224760061EF0E /* main.m in Sources */,
 				E3590001178224760061EF0E /* AppDelegate.m in Sources */,
 				E359000D178224760061EF0E /* ViewController.m in Sources */,
+				E3590015178224AF0061EF0E /* TableControllerViewController.m in Sources */,
+				E3590019178224F50061EF0E /* MessageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
